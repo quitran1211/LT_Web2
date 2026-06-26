@@ -1,0 +1,47 @@
+.image-update-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-preview {
+    margin-bottom: 20px;
+}
+
+.preview-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.file-input {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.update-button {
+    background-color: #003af7;
+    /* màu xanh nổi bật */
+    color: white;
+    padding: 14px 30px;
+    /* tăng size nút */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    /* chữ to hơn */
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 2px;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #57b2f9;
+    /* màu sáng hơn khi hover */
+}
